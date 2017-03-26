@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Open Weather API</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    </head>
+    
+	<body background ="C:/Users/hp/Desktop/bg_img.jpg">
+
+	
+	<div>
+
+	<center><img width="400" src="C:/Users/hp/Desktop/img.jpg">
+	<div class="tab">
+ 
+	</div>
+	<center>
+          <div id="UserArea">
+            <div id="stateWrapper">
+	<h3 style="text-align:center;">Input data to see weather conditions in a City</h3>
+                <input type="text" id="cityInput" placeholder="Enter a City"/>
+            </div>
+            <br/>
+            <div id="countryWrapper">
+                 <input type="text" id="countryInput" placeholder="Enter a Country"/>
+            </div>
+            <br/>
+            <div id="buttonArea">
+                <input type="submit" id="submitWeather"/>
+		</div>
+            </div>
+        </div>
+	</center>
+
+
+	 <!- USED TO SHOW RESULT -->
+        <div id="WeatherWrapper">
+        </div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>	
+        <script type="text/javascript" src="mainWeather.js"></script>
+
+
+
+	<h3 style="text-align:center;">Input data to calculate average temperatures of 4 Cities</h3>
+	<center>
+	  <div id="Average temperature of 4 stations" class="tabcontent">
+                <input type="text" id="countryInput1" placeholder="Enter a Country"/>
+            </div>
+            <br/>
+            <div id="countryWrapper">
+                 <input type="text" id="cityInput1" placeholder="Enter a City"/>
+            </div>
+            <br/>
+            <div id="countryWrapper">
+                 <input type="text" id="cityInput2" placeholder="Enter a City"/>
+            </div>
+            <br/>
+            <div id="countryWrapper">
+                 <input type="text" id="cityInput3" placeholder="Enter a City"/>
+            </div>
+            <br/>
+            <div id="countryWrapper">
+                 <input type="text" id="cityInput4" placeholder="Enter a City"/>
+            </div>
+            <br/>
+            <div id="buttonArea">
+                <input type="submit" id="submitWeather"/>
+		</div>
+		</center>		
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>	
+        <script type="text/javascript" src="avgWeather.js"></script>
+			
+       
+    </body>
+</html>
